@@ -1,6 +1,13 @@
 # Socket IO Practice 
 This docker project will create a food ordering server that will use socket.io for communication. 
 
+## Building the Server 
+Run the following commands. 
+```
+npm init 
+docker compose up --build 
+```
+
 ## Echo Testing Route 
 This route allows you to emit an event to the server called **echo** along with a message.  In 10 seconds it will emit back an event called **returnEcho**. 
 
