@@ -1,0 +1,23 @@
+{
+  "name": "orderbackend",
+  "version": "1.0.0",
+  "description": "Simulated Food Ordering Backend",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "front",
+    "end",
+    "development",
+    "tool"
+  ],
+  "author": "Jeremy Skrdlant",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "socket.io": "^4.7.4"
+  }
+}
